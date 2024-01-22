@@ -1,7 +1,7 @@
 // the production variable in determines what kind of environment we are in.
 const production = process.env.NODE_ENV === "production"
 // checks if our environment dev is on Development or production
-const clientUrl = production ? "realsite.com" : "http://localhost:1234"
+const clientUrl = production ? "https://omidiwx-pictionary-clone.pages.dev" : "http://localhost:1234"
 import { Server } from "socket.io"
 const io = new Server(3000, {
   //cors is an option. it functions like n-word pass, it will let different domain to connect to our server. (????????)

@@ -5,7 +5,7 @@ import { io } from "socket.io-client"
 import DrawbleCanvas from "./DrawbleCanvas"
 // the NODE_ENV is a property of process object. more explanation on server.js part.
 const production = process.env.NODE_ENV === "production"
-const serverUrl = production ? "realsite.com" : "http://localhost:3000"
+const serverUrl = production ? "https://omidiwx-pictionary-clone.pages.dev/" : "http://localhost:3000"
 // our front-end code is on client folder(different domain).
 // so we should pass the server domain(in our case: port 3000), to our client.
 const socket = io(serverUrl)

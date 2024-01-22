@@ -1,2 +1,3 @@
 # pictionary-clone
- a vanilla JavaScript written pictonary game 
+
+a vanilla JavaScript written pictonary game
