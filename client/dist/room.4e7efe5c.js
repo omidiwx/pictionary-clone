@@ -6330,7 +6330,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // the NODE_ENV is a property of process object. more explanation on server.js part.
 var production = "development" === "production";
-var serverUrl = production ? "realsite.com" : "http://localhost:3000";
+var serverUrl = production ? "https://omidiwx-pictionary-clone.pages.dev/" : "http://localhost:3000";
 // our front-end code is on client folder(different domain).
 // so we should pass the server domain(in our case: port 3000), to our client.
 var socket = (0, _socket.io)(serverUrl);
@@ -6476,7 +6476,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51921" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53345" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
